@@ -47,6 +47,7 @@ export default function CoffeeOrderTable() {
                 <TableHead>
                     <TableRow>
                         <StyledTableCell>№</StyledTableCell>
+                        <StyledTableCell>İmage</StyledTableCell>
                         <StyledTableCell>Coffee Name</StyledTableCell>
                         <StyledTableCell>Count</StyledTableCell>
                         <StyledTableCell>Special note</StyledTableCell>
@@ -59,6 +60,7 @@ export default function CoffeeOrderTable() {
                             <StyledTableCell component="th" scope="row">
                                 {row.name}
                             </StyledTableCell>
+                            <StyledTableCell>{row.calories}</StyledTableCell>
                             <StyledTableCell>{row.calories}</StyledTableCell>
                             <StyledTableCell>{row.fat}</StyledTableCell>
                             <StyledTableCell>{row.carbs}</StyledTableCell>
